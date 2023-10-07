@@ -1,62 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>Minami | ルール</title>
-    <link rel="icon" href="cmn/img/logo\favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
     <style>
+        /* ページ全体のスタイル */
         body {
-            font-family: 'Noto Sans JP', Arial, sans-serif; /* Noto Sans JP フォントを追加 */
-            background-color: #f0f0f0;
+            font-family: 'Noto Sans JP', sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f0f0f0;
         }
+
+        /* ヘッダースタイル */
         header {
             background-color: #333;
-            color: #fff;
+            color: white;
             text-align: center;
             padding: 20px;
         }
-        h1 {
-            font-size: 24px;
+
+        header h1 {
+            font-size: 36px;
         }
-        .rule-list {
-            margin: 20px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
         }
-        .rule-item {
-            margin-bottom: 15px;
+
+        /* ナビゲーションメニュースタイル */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
         }
-        .rule-item strong {
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
             font-weight: bold;
+            font-size: 20px;
+            /* ボーダーのスタイル */
+            border: 2px solid #333;
+            padding: 10px 20px; /* ボタンの内側の余白 */
+            border-radius: 5px; /* 角丸 */
+            transition: background-color 0.3s, color 0.3s;
         }
-        /* 戻るボタンのスタイル */
-        .back-button {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .back-button button {
+
+        nav ul li a:hover {
             background-color: #333;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
+            color: white;
         }
     </style>
+    <title>Minami | 参加方法</title>
+    <link rel="icon" href="cmn/img/logo/favicon.png">
 </head>
 <body>
-    <div class="rule-list">
-        <h2>参加方法</h2>
-        <div class="rule-item">
-            <strong></strong>申し訳ございませんが、10/11日以降のアクセスをお願いします。
-        </div>
-    <!-- 戻るボタン -->
-    <div class="back-button">
-      <button onclick="location.href='index.html'">戻る</button>
-    </div>
+    <header>
+        <h1>参加方法</h1>
+        <p>LINEグループに参加して、ノートを確認してください。</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="line.html">グループに参加</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
