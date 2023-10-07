@@ -299,7 +299,7 @@ footer > .container {
 /* 運営についてセクションの背景を黒にする */
 .area_home_feature {
   background-color: #ffffff;
-  color: #000000; /* テキストの色を白に設定 */
+  color: #525252; /* テキストの色を白に設定 */
 }
 
 /* ボタンのスタイル */
@@ -350,12 +350,12 @@ footer > .container {
 
 /* ボタンのホバースタイル */
 .button:hover {
-  background-color: #2980b9;
+  background-color: #2b668d;
 }
 
 /* セクション全体の背景色を変更するためのCSS */
 .button-section {
-  background-color: #404040; /* 背景色を赤色に設定 */
+  background-color: #06152c;
   /* 他のスタイルプロパティを追加できます */
 }
 
